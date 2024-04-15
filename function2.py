@@ -11,3 +11,6 @@ def union(*ar):
 
 print(union("HAM", "SPAM"))
 print(union("HAM", "SPAM", "EGG"))
+
+
+print(union("HAM", "SPAM", "EGG", str(123)))
