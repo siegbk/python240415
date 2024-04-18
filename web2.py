@@ -2,7 +2,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-
 url = "https://www.daangn.com/fleamarket/"
 #페이지 실행 요청
 response = requests.get(url)
